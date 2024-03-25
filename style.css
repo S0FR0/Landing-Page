@@ -31,7 +31,7 @@ a {
 }
 
 h1,
-#hero > p {
+.hero_text {
     color: #f9faf8;
     size: 18px;
 }
@@ -41,6 +41,7 @@ h1,
 }
 
 #hero {
+    
     size: 48px;
     font-weight: bolder;
 }
@@ -70,7 +71,8 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
-
+    gap: 30px;
+    margin-bottom: 50px;
 }
 
 .frame{
@@ -80,10 +82,74 @@ button{
 }
 
 .illustration {
-    height: 50px;
-    width: 50px;
+    height: 130px;
+    width: 130px;
     border-radius: 5%;
+    border: solid 2px;
     border-color: #3daaf3;
-    border: 5px;
+}
+
+.ftext{
+    width: 130px;
+    text-align: center;
+}
+
+.third {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+blockquote{
+    width: 700px;
+    font-style: italic;
+    font-size: 36px;
+}
+
+footer{
     background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    
+}
+
+.fourth{
+    background-color: #3daaf3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin: 200px;
+}
+
+.fourth_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#button{
+    border: solid 1px; 
+    border-color: #F9FAF8;
+    margin: 30px;
+    padding: 5px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+cite{
+    align-self: end;
+    font-weight: bold;
+    font: 50px;
+    margin-right: 200px;
+    margin-bottom: 50px;
 }
